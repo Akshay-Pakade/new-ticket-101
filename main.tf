@@ -3,9 +3,9 @@ resource "azurerm_resource_group" "demo_rg1" {
   location = "East US"
 }
 
-resource "azurerm_resource_group" "akshay_rg2" {
-  name     = "akshay-rg2"
-  location = "west europe"
+resource "azurerm_resource_group" "vishwa_rg2" {
+  name     = "vishwa-rg2"
+  location = "west us"
 }
 
 resource "azurerm_resource_group" "demo_rg3" {

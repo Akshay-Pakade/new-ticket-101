@@ -1,0 +1,12 @@
+name: InfraBuildWorkflow
+on: push
+jobs:
+  build:
+    runs-on: dhondu
+
+    steps:
+      - name: first task
+        run: echo Hello, world!
+
+      - name: Run a multi-line script
+        run: my first workflow done
